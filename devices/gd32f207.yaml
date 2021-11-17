@@ -2,17 +2,17 @@
 #
 # SPDX-License-Identifier: MIT OR Apache-2.0
 
-_svd: ../svd/gd32f170.svd
+_svd: ../svd/gd32f207.svd
 
 _modify:
-  name: "GD32F170"
+  name: "GD32F207"
 
 _delete:
   - DAC
 
 _include:
-  - common_patches/gd32f1x0.yaml
-  - common_patches/gd32f170_190.yaml
+  - common_patches/gd32f2x0.yaml
+  - common_patches/gd32f207.yaml
   - ../peripherals/adc/adc.yaml
   - ../peripherals/adc/adc_vbat.yaml
   - ../peripherals/adc/adc_high.yaml
@@ -28,7 +28,7 @@ _include:
   - ../peripherals/flash/flash_wsen.yaml
   - ../peripherals/fwdgt/fwdgt.yaml
   - ../peripherals/gpio/gpio.yaml
-  - ../peripherals/i2c/i2c.yaml
+  - ../peripherals/i2c/i2c_v2.yaml
   - ../peripherals/i2c/i2c_high.yaml
   - ../peripherals/ivref/ivref.yaml
   - ../peripherals/opa/opa.yaml
