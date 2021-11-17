@@ -58,3 +58,12 @@ gd32e2:
     rm_url: https://www.gigadevice.com/manual/gd32e231xxxx-user-manual/
     members:
       - GD32E231
+
+gd32f2:
+  gd32f207:
+    url: https://www.gigadevice.com/products/microcontrollers/gd32/arm-cortex-m3/performance-line/gd32f207-series/
+    rm: gd32f207
+    rm_title: gd32f207
+    rm_url: https://www.gigadevice.com/datasheet/gd32f207xxxx-datasheet/
+    members:
+      - gd32f207
