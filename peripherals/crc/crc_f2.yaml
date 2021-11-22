@@ -1,0 +1,13 @@
+# Copyright 2021 The gd32-rs authors.
+#
+# SPDX-License-Identifier: MIT OR Apache-2.0
+
+CRC:
+  DATA:
+    DATA: [0, 0xFFFFFFFF]
+  FDATA:
+    FDATA: [0, 0xFF]
+  CTL:
+    RST:
+      _write:
+        Reset: [1, "Resets the DATA register to IDATA, with no effect on FDATA"]
