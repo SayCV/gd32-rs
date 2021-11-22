@@ -67,8 +67,7 @@
     ADDFORMAT:
       Add7: [0, "7-bit slave address"]
       Add10: [1, "10-bit slave address"]
-    ADDRESS9_8: [0, 3]
-    ADDRESS7_1: [0, 1023]
+    ADDRESS: [0, 1023]
   SADDR1:
     ADDRESS2: [0, 0x7F]
     DUADEN:

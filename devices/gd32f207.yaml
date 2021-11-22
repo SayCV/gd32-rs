@@ -22,6 +22,15 @@ _include:
 #  - ../peripherals/fsmc/fsmc_nand.yaml
   - ../peripherals/fwdgt/fwdgt_f2.yaml
   - ../peripherals/gpio/gpio_f2.yaml
-  - ../peripherals/i2c/i2c.yaml
-  - ../peripherals/i2c/i2c_high.yaml
-  - ../peripherals/ivref/ivref.yaml
+  - ../peripherals/i2c/i2c_f2.yaml
+  - ../peripherals/pmu/pmu.yaml
+  - ../peripherals/rcu/rcu_f2.yaml
+#  - ../peripherals/spi/spi.yaml
+#  - ../peripherals/spi/spi_high.yaml
+#  - ../peripherals/syscfg/syscfg.yaml
+#  - ../peripherals/syscfg/syscfg_hcce.yaml
+#  - ../peripherals/syscfg/syscfg_slcd.yaml
+#  - ../peripherals/timer/timers.yaml
+#  - ../peripherals/timer/timers_high.yaml
+#  - ../peripherals/usart/usart.yaml
+#  - ../peripherals/wwdg/wwdg.yaml
