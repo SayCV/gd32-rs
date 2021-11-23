@@ -2,7 +2,7 @@
 #
 # SPDX-License-Identifier: MIT OR Apache-2.0
 
-ADC:
+ADC*:
   CTL1:
     VBATEN:
       Disabled: [0, "VBAT channel disabled"]

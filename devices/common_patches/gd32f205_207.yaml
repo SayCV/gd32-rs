@@ -4,9 +4,9 @@
 
 # Patches for both GD31F170 and GD32F190.
 
-_modify:
-  "ADC0":
-    name: "ADC"
+#_modify:
+#  "ADC0":
+#    name: "ADC"
 
 "CAN*":
   BT:

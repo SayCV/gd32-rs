@@ -25,8 +25,8 @@ _include:
   - ../peripherals/i2c/i2c_f2.yaml
   - ../peripherals/pmu/pmu.yaml
   - ../peripherals/rcu/rcu_f2.yaml
-#  - ../peripherals/spi/spi.yaml
-#  - ../peripherals/spi/spi_high.yaml
+  - ../peripherals/spi/spi.yaml
+  - ../peripherals/spi/spi_high.yaml
 #  - ../peripherals/syscfg/syscfg.yaml
 #  - ../peripherals/syscfg/syscfg_hcce.yaml
 #  - ../peripherals/syscfg/syscfg_slcd.yaml
