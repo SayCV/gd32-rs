@@ -27,10 +27,6 @@ _include:
   - ../peripherals/rcu/rcu_f2.yaml
   - ../peripherals/spi/spi.yaml
   - ../peripherals/spi/spi_high.yaml
-#  - ../peripherals/syscfg/syscfg.yaml
-#  - ../peripherals/syscfg/syscfg_hcce.yaml
-#  - ../peripherals/syscfg/syscfg_slcd.yaml
-#  - ../peripherals/timer/timers.yaml
-#  - ../peripherals/timer/timers_high.yaml
-#  - ../peripherals/usart/usart.yaml
-#  - ../peripherals/wwdg/wwdg.yaml
+  - ../peripherals/timer/timers_f2.yaml
+  - ../peripherals/usart/usart_f2.yaml
+  - ../peripherals/wwdg/wwdg.yaml
